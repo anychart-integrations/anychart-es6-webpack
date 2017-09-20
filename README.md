@@ -35,7 +35,7 @@ Now you may open dist/index.html file to see result.
 ## Package directory
 
 ```
-webpack-typescript-example/
+anychart-es6-webpack/
     dist/
         bundle.js           # bundled javascript file
         index.html          # html example file
