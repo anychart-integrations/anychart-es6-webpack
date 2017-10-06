@@ -79,7 +79,6 @@ var _format2 = _interopRequireDefault(_format);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 anychart.onDocumentReady(function () {
-    console.log(_format2.default);
     var chart = anychart.column();
     var series = chart.column([3, 1, 2]);
     series.labels().enabled(true).format(_format2.default);
